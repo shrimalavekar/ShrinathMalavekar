@@ -1,0 +1,97 @@
+@media only screen and (max-width:800px) {
+    h1 {
+        font-size: 35px;
+    }
+    .toggle-btn i {
+        display: block;
+    }
+    .brand h1 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 20px;
+    }
+    .barnd-txt {
+        color: black;
+    }
+    .navbar {
+        background: #34a1cd;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+    .active {
+        color: black;
+    }
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar ul li {
+        top: 20px;
+        margin-top: 50px;
+    }
+    .header {
+        height: 100%;
+        margin-top: 120px;
+    }
+    .header .row {
+        flex-direction: column;
+    }
+    .header .col-1 {
+        padding: 20px;
+    }
+    .header .col-2 img {
+        max-width: 90%;
+        height: 90%;
+    }
+    .grid-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+    .grid-box {
+        padding: 10px;
+    }
+    .skills {
+        padding-top: 50px;
+        height: 100%;
+    }
+    .about {
+        margin-top: 50px;
+    }
+    .contact .container-skill h2 {
+        font-size: 15px;
+        margin: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .contact .container-skill h1 {
+        font-size: 30px;
+    }
+    .contact .fa {
+        margin: 0;
+        font-size: 15px;
+    }
+    .resume {
+        width: 110px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:1050px) and (min-width:800px) {
+    .title {
+        padding-top: 150px;
+    }
+    .contact {
+        padding-top: 150px;
+    }
+    .skills {
+        padding-top: 50px;
+        height: 100%;
+    }
+}
